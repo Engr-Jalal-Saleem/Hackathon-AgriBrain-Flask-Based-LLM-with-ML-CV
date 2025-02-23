@@ -1,0 +1,220 @@
+2025-02-23 16:19:46,072 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-02-23 16:19:46,072 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-23 16:19:46,075 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-23 16:19:46,986 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 16:19:47,275 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-02-23 16:19:47,563 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-02-23 16:19:48,157 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 16:19:48,497 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-02-23 16:19:48,801 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-02-23 16:19:49,085 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-02-23 16:19:49,871 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-02-23 16:19:50,277 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6768
+2025-02-23 16:19:50,672 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6768
+2025-02-23 16:19:50,886 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-02-23 16:19:51,036 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-02-23 16:19:51,370 - chromadb.config - DEBUG - Starting component System
+2025-02-23 16:19:51,371 - chromadb.config - DEBUG - Starting component Posthog
+2025-02-23 16:19:51,371 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-02-23 16:19:51,371 - chromadb.config - DEBUG - Starting component SimpleAssignmentPolicy
+2025-02-23 16:19:51,371 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-02-23 16:19:51,374 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-02-23 16:19:51,375 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-02-23 16:19:51,388 - werkzeug - WARNING -  * Debugger is active!
+2025-02-23 16:19:51,391 - werkzeug - INFO -  * Debugger PIN: 607-139-183
+2025-02-23 16:19:51,898 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-02-23 16:19:53,455 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 16:20:05,301 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2025 16:20:05] "POST /crop_recommendation HTTP/1.1" 200 -
+2025-02-23 16:20:50,452 - werkzeug - INFO -  * Detected change in 'D:\\Chatbot-Flask-App-Using-Gemini-API\\app.py', reloading
+2025-02-23 16:21:00,479 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-02-23 16:21:00,479 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-23 16:21:00,481 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-23 16:21:00,994 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 16:21:01,291 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-02-23 16:21:01,872 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-02-23 16:21:02,192 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 16:21:02,888 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-02-23 16:21:03,228 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-02-23 16:21:03,801 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-02-23 16:21:14,150 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): huggingface.co:443
+2025-02-23 16:21:15,229 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6768
+2025-02-23 16:21:16,008 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6768
+2025-02-23 16:21:16,197 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-02-23 16:21:16,206 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-02-23 16:21:16,542 - chromadb.config - DEBUG - Starting component System
+2025-02-23 16:21:16,543 - chromadb.config - DEBUG - Starting component Posthog
+2025-02-23 16:21:16,543 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-02-23 16:21:16,543 - chromadb.config - DEBUG - Starting component SimpleAssignmentPolicy
+2025-02-23 16:21:16,543 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-02-23 16:21:16,546 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-02-23 16:21:16,546 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-02-23 16:21:16,554 - werkzeug - WARNING -  * Debugger is active!
+2025-02-23 16:21:16,559 - werkzeug - INFO -  * Debugger PIN: 607-139-183
+2025-02-23 16:21:17,060 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-02-23 16:21:18,587 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 16:21:20,859 - werkzeug - INFO -  * Detected change in 'D:\\Chatbot-Flask-App-Using-Gemini-API\\app.py', reloading
+2025-02-23 16:21:30,398 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-02-23 16:21:30,399 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-23 16:21:30,401 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-23 16:21:31,330 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 16:21:32,018 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-02-23 16:21:32,300 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-02-23 16:21:32,986 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 16:21:33,266 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-02-23 16:21:33,830 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-02-23 16:21:34,179 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-02-23 16:21:34,742 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-02-23 16:21:35,082 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6768
+2025-02-23 16:21:35,469 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6768
+2025-02-23 16:21:35,644 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-02-23 16:21:35,773 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-02-23 16:21:36,003 - chromadb.config - DEBUG - Starting component System
+2025-02-23 16:21:36,004 - chromadb.config - DEBUG - Starting component Posthog
+2025-02-23 16:21:36,004 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-02-23 16:21:36,004 - chromadb.config - DEBUG - Starting component SimpleAssignmentPolicy
+2025-02-23 16:21:36,005 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-02-23 16:21:36,008 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-02-23 16:21:36,008 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-02-23 16:21:36,016 - werkzeug - WARNING -  * Debugger is active!
+2025-02-23 16:21:36,021 - werkzeug - INFO -  * Debugger PIN: 607-139-183
+2025-02-23 16:21:36,519 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-02-23 16:21:37,941 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 16:21:53,070 - chromadb.config - DEBUG - Starting component PersistentLocalHnswSegment
+2025-02-23 16:21:54,083 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 16:21:58,256 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2025 16:21:58] "POST /chat HTTP/1.1" 200 -
+2025-02-23 16:22:01,230 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2025 16:22:01] "POST /chat HTTP/1.1" 200 -
+2025-02-23 16:22:04,266 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2025 16:22:04] "POST /chat HTTP/1.1" 200 -
+2025-02-23 16:22:32,200 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2025 16:22:32] "POST /crop_recommendation HTTP/1.1" 200 -
+2025-02-23 16:22:35,985 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2025 16:22:35] "POST /crop_recommendation HTTP/1.1" 200 -
+2025-02-23 16:22:42,357 - werkzeug - INFO -  * Detected change in 'D:\\Chatbot-Flask-App-Using-Gemini-API\\app.py', reloading
+2025-02-23 16:22:53,749 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-02-23 16:22:53,750 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-23 16:22:53,752 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-23 16:22:54,713 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 16:22:55,393 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-02-23 16:22:55,667 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-02-23 16:22:55,944 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 16:22:56,223 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-02-23 16:22:56,517 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-02-23 16:22:57,347 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-02-23 16:22:57,930 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-02-23 16:22:58,745 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6768
+2025-02-23 16:22:59,033 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6768
+2025-02-23 16:22:59,204 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-02-23 16:22:59,352 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-02-23 16:22:59,591 - chromadb.config - DEBUG - Starting component System
+2025-02-23 16:22:59,591 - chromadb.config - DEBUG - Starting component Posthog
+2025-02-23 16:22:59,591 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-02-23 16:22:59,592 - chromadb.config - DEBUG - Starting component SimpleAssignmentPolicy
+2025-02-23 16:22:59,592 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-02-23 16:22:59,594 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-02-23 16:22:59,594 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-02-23 16:22:59,603 - werkzeug - WARNING -  * Debugger is active!
+2025-02-23 16:22:59,606 - werkzeug - INFO -  * Debugger PIN: 607-139-183
+2025-02-23 16:23:00,112 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-02-23 16:23:02,620 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 16:23:03,999 - werkzeug - INFO -  * Detected change in 'D:\\Chatbot-Flask-App-Using-Gemini-API\\app.py', reloading
+2025-02-23 16:23:12,312 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-02-23 16:23:12,313 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-23 16:23:12,314 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-23 16:23:13,129 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 16:23:13,408 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-02-23 16:23:14,082 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-02-23 16:23:14,364 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 16:23:14,648 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-02-23 16:23:14,927 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-02-23 16:23:15,607 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-02-23 16:23:16,234 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-02-23 16:23:16,666 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6768
+2025-02-23 16:23:17,014 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6768
+2025-02-23 16:23:17,220 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-02-23 16:23:17,383 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-02-23 16:23:17,612 - chromadb.config - DEBUG - Starting component System
+2025-02-23 16:23:17,613 - chromadb.config - DEBUG - Starting component Posthog
+2025-02-23 16:23:17,613 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-02-23 16:23:17,613 - chromadb.config - DEBUG - Starting component SimpleAssignmentPolicy
+2025-02-23 16:23:17,613 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-02-23 16:23:17,616 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-02-23 16:23:17,616 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-02-23 16:23:17,626 - werkzeug - WARNING -  * Debugger is active!
+2025-02-23 16:23:17,629 - werkzeug - INFO -  * Debugger PIN: 607-139-183
+2025-02-23 16:23:18,111 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-02-23 16:23:21,593 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 16:23:54,320 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2025 16:23:54] "POST /crop_recommendation HTTP/1.1" 200 -
+2025-02-23 16:24:18,090 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2025 16:24:18] "POST /crop_recommendation HTTP/1.1" 200 -
+2025-02-23 16:24:20,294 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2025 16:24:20] "POST /crop_recommendation HTTP/1.1" 200 -
+2025-02-23 16:24:36,017 - werkzeug - INFO -  * Detected change in 'D:\\Chatbot-Flask-App-Using-Gemini-API\\app.py', reloading
+2025-02-23 16:24:47,680 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-02-23 16:24:47,680 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-23 16:24:47,682 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-23 16:24:48,594 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 16:24:49,286 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-02-23 16:24:49,575 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-02-23 16:24:50,295 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 16:24:50,590 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-02-23 16:24:50,877 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-02-23 16:24:51,175 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-02-23 16:24:51,800 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-02-23 16:24:52,153 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6768
+2025-02-23 16:24:52,556 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6768
+2025-02-23 16:24:52,761 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-02-23 16:24:52,894 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-02-23 16:24:53,140 - chromadb.config - DEBUG - Starting component System
+2025-02-23 16:24:53,141 - chromadb.config - DEBUG - Starting component Posthog
+2025-02-23 16:24:53,141 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-02-23 16:24:53,141 - chromadb.config - DEBUG - Starting component SimpleAssignmentPolicy
+2025-02-23 16:24:53,142 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-02-23 16:24:53,144 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-02-23 16:24:53,144 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-02-23 16:24:53,154 - werkzeug - WARNING -  * Debugger is active!
+2025-02-23 16:24:53,157 - werkzeug - INFO -  * Debugger PIN: 607-139-183
+2025-02-23 16:24:53,651 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-02-23 16:24:56,047 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 16:24:58,581 - werkzeug - INFO -  * Detected change in 'D:\\Chatbot-Flask-App-Using-Gemini-API\\app.py', reloading
+2025-02-23 16:25:07,316 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-02-23 16:25:07,317 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-23 16:25:07,319 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-23 16:25:08,481 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 16:25:09,166 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-02-23 16:25:09,849 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-02-23 16:25:10,141 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 16:25:11,116 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-02-23 16:25:11,402 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-02-23 16:25:11,691 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-02-23 16:25:12,362 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-02-23 16:25:12,721 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6768
+2025-02-23 16:25:13,079 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6768
+2025-02-23 16:25:13,263 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-02-23 16:25:13,407 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-02-23 16:25:13,654 - chromadb.config - DEBUG - Starting component System
+2025-02-23 16:25:13,655 - chromadb.config - DEBUG - Starting component Posthog
+2025-02-23 16:25:13,655 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-02-23 16:25:13,655 - chromadb.config - DEBUG - Starting component SimpleAssignmentPolicy
+2025-02-23 16:25:13,656 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-02-23 16:25:13,659 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-02-23 16:25:13,659 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-02-23 16:25:13,667 - werkzeug - WARNING -  * Debugger is active!
+2025-02-23 16:25:13,676 - werkzeug - INFO -  * Debugger PIN: 607-139-183
+2025-02-23 16:25:13,888 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-02-23 16:25:13,889 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-23 16:25:13,892 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-23 16:25:14,173 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-02-23 16:25:14,722 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 16:25:15,007 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-02-23 16:25:15,697 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-02-23 16:25:16,260 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 16:25:16,261 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 16:25:16,860 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-02-23 16:25:17,147 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-02-23 16:25:17,449 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-02-23 16:25:17,777 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-02-23 16:25:18,512 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6768
+2025-02-23 16:25:18,803 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6768
+2025-02-23 16:25:18,819 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2025 16:25:18] "GET / HTTP/1.1" 200 -
+2025-02-23 16:25:19,037 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2025 16:25:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-02-23 16:25:19,656 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 16:25:32,497 - chromadb.config - DEBUG - Starting component PersistentLocalHnswSegment
+2025-02-23 16:25:33,217 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 16:25:37,357 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2025 16:25:37] "POST /chat HTTP/1.1" 200 -
+2025-02-23 16:25:47,373 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2025 16:25:47] "POST /crop_recommendation HTTP/1.1" 200 -
+2025-02-23 16:26:04,267 - werkzeug - INFO -  * Detected change in 'D:\\Chatbot-Flask-App-Using-Gemini-API\\app.py', reloading
